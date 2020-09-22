@@ -1,0 +1,19 @@
+.board{
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    display: flex;
+    border: 1px solid black;
+}
+
+.board .line{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.board .line .tile{
+    background: white;
+    height: 10px;
+    width: 10px;
+}
